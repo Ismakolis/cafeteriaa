@@ -7,47 +7,121 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family:"Open Sans", Arial, sans-serif;
+body {
+    font-family: "Open Sans", Arial, sans-serif;
     font-size: 16px;
-     
+
 }
-.contenedor{
-    border:1px solid blue ;
+
+.contenedor {
+    border: 1px solid blue;
     width: 90%;
-    max-width:1000px;
+    max-width: 1000px;
     margin: auto;
     overflow: hidden;
 }
+
 /**Estilos header*/
-header{
-    border:1px solid red ;
+header {
+    border: 1px solid red;
     width: 100%;
     background: url(../imagenes/bg-textura.jpg) #281a0c;
     background-size: cover;
     background-attachment: fixed;
     background-position: center 0;
 }
-header .contenedor{
+
+header .contenedor {
     position: relative;
-    height: 650px;
+    height: 660px;
 }
-header .menu{
+
+header .menu {
     width: 100%;
     text-align: right;
 }
-header .menu a{
+
+header .menu a {
     color: #fff;
     font-size: 20px;
     font-weight: 300px;
     display: inline-block;
-    margin:40px 20px;
+    margin: 40px 20px;
     text-decoration: none;
     position: relative;
 }
-header .menu a:hover{ 
+
+header .menu a:hover {
     text-decoration: underline;
-    
+    color: aqua;
 }
 
+header .texto {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -52px;
+}
 
+header .texto .nombre {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+header .texto .nombre span {
+    font-weight: 300;
+}
+
+header .texto h3 {
+    font-weight: 300;
+    font-size: 25px;
+    font-family: italic;
+}
+
+/**Etilos del main**/
+.main {
+    background: url(../imagenes/bg.jpg);
+    background-repeat: repeat;
+}
+
+.main .acerca-de .contenedor {
+    overflow: visible;
+    position: relative;
+}
+
+.main .acerca-de .foto {
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    z-index: 0;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+}
+
+.main .acerca-de .foto {
+    vertical-align: top;
+    width: 100%;
+}
+
+.main .acerca-de article {
+    background: #fff;
+    padding: 40px;
+    width: 50%;
+    position: relative;
+    top: -80px;
+    z-index: 1;
+    float: right;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.35);
+}
+
+.main .acerca-de article h3 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 300;
+    
+}
+.main .acerca-de article p{
+    line-height: 28px;
+    margin-bottom: 15px;
+}
