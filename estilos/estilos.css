@@ -119,9 +119,86 @@ header .texto h3 {
     margin-bottom: 40px;
     font-size: 30px;
     font-weight: 300;
-    
+
 }
-.main .acerca-de article p{
+
+.main .acerca-de article p {
     line-height: 28px;
     margin-bottom: 15px;
 }
+
+/*sECCION MENU*/
+.main .menu {
+    padding-top: 570px;
+    margin-bottom: 50px;
+}
+
+.main .menu .titulo {
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main .menu .contenedor-menu,
+.main .menu .contenedor-menu2{
+    border: 1px solid black;
+    background: transparent;
+    padding: 10px;
+    overflow: hidden;
+}
+.main .menu article{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}  
+.main .menu article .categoria{
+    text-align: center;
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: 500;
+    border:1px solid #281a0c;
+    margin-bottom: 40px;
+}
+.main .menu .platito{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 4px dotted black;
+    overflow: hidden;
+}
+.main .menu .nombre{
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: left;
+}
+.main .menu .precio{
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: right;
+}
+.main .menu .descripcion{
+    font-size: 16px;
+    color: yellowgreen;
+    clear: both;
+}
+.main .galeria {
+    overflow: hidden;
+
+}
+.main .galeria .foto{
+    width: 25% ;
+    float: left;
+    padding: 2px;
+    overflow:hidden;
+
+}
+.main .galeria .foto img{
+    
+width: 100%;    
+vertical-align: bottom;
+opacity: .7;
+}
+.main .galeria .foto img:hover{
+opacity: 1;
+}
+
+
